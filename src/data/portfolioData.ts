@@ -85,16 +85,6 @@ export const SERVICES_DATA: Service[] = [
     tags: ["Python Scripts", "Performance Fixes", "Responsive Fixes", "Selenium / BS4"],
     category: "Bug Fixing & Code Refactoring",
   },
-  {
-    id: "desktop-apps",
-    title: "Desktop & Cross-Platform Apps",
-    price: "From $200",
-    description:
-      "Standalone desktop management tools (PyQt, Tkinter, Electron) and cross-platform native mobile prototypes built with clean architecture and local data persistence.",
-    icon: "desktop_windows",
-    tags: ["Python GUI / PyQt", "Electron", "React Native", "SQLite"],
-    category: "Full-Stack Web Application",
-  },
 ];
 
 export const VALUE_PROPS = [

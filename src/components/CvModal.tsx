@@ -26,7 +26,7 @@ export const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose }) => {
   const handleDownloadCv = () => {
     const cvContent = `MUHAMMAD KASHIF
 Software Engineer & Full-Stack Developer
-Email: kashif.software.eng@gmail.com
+Email: rai.kashif03@gmail.com
 Status: Available for Freelance & Custom Software Contracts (Fiverr & Upwork)
 
 SUMMARY

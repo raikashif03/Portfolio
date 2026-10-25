@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Globe, Server, Bug, Monitor } from "lucide-react";
+import { ArrowRight, Globe, Server, Bug } from "lucide-react";
 import { SERVICES_DATA, Service } from "../data/portfolioData";
 
 interface ServicesSectionProps {
@@ -15,8 +15,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOrderGig }) 
         return <Server className="w-6 h-6 text-[#00e5ff]" />;
       case "bug_report":
         return <Bug className="w-6 h-6 text-[#00e5ff]" />;
-      case "desktop_windows":
-        return <Monitor className="w-6 h-6 text-[#00e5ff]" />;
       default:
         return <Globe className="w-6 h-6 text-[#00e5ff]" />;
     }
@@ -36,7 +34,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOrderGig }) 
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {SERVICES_DATA.map((service) => (
             <div
               key={service.id}

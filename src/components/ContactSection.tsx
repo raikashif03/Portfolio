@@ -36,7 +36,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
   }, [initialBudget]);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("kashif.software.eng@gmail.com");
+    navigator.clipboard.writeText("rai.kashif03@gmail.com");
     setEmailCopied(true);
     setTimeout(() => setEmailCopied(false), 2000);
   };
@@ -125,7 +125,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       Direct Email
                     </div>
                     <div className="font-mono text-[11px] text-[#bac9cc] truncate">
-                      kashif.software.eng@gmail.com
+                      <a href="mailto:rai.kashif03@gmail.com" className="hover:text-[#00e5ff] transition-colors">
+                        rai.kashif03@gmail.com
+                      </a>
                     </div>
                   </div>
                   <button

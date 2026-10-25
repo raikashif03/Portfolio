@@ -56,4 +56,4 @@ npm run build
 
 - **Fiverr:** [Fiverr Profile](https://www.fiverr.com)
 - **GitHub:** [@raikashif03](https://github.com/raikashif03)
-- **Email:** `kashif.software.eng@gmail.com`
+- **Email:** `rai.kashif03@gmail.com`
